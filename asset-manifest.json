@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/wyland/static/css/main.34de6062.chunk.css",
+    "main.js": "/wyland/static/js/main.8607a219.chunk.js",
+    "main.js.map": "/wyland/static/js/main.8607a219.chunk.js.map",
+    "runtime-main.js": "/wyland/static/js/runtime-main.4080bae7.js",
+    "runtime-main.js.map": "/wyland/static/js/runtime-main.4080bae7.js.map",
+    "static/js/2.40c98396.chunk.js": "/wyland/static/js/2.40c98396.chunk.js",
+    "static/js/2.40c98396.chunk.js.map": "/wyland/static/js/2.40c98396.chunk.js.map",
+    "index.html": "/wyland/index.html",
+    "precache-manifest.af96a326e5f9ce50e6f55693b6e68070.js": "/wyland/precache-manifest.af96a326e5f9ce50e6f55693b6e68070.js",
+    "service-worker.js": "/wyland/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/wyland/static/css/main.34de6062.chunk.css.map",
+    "static/media/Pepe1.jpg": "/wyland/static/media/Pepe1.d1b723e2.jpg",
+    "static/media/pepe2.jpg": "/wyland/static/media/pepe2.785de837.jpg",
+    "static/media/pepe3.jpg": "/wyland/static/media/pepe3.74405703.jpg",
+    "static/media/pepe4.jpg": "/wyland/static/media/pepe4.d4833e93.jpg",
+    "static/media/pepe5.jpg": "/wyland/static/media/pepe5.4c6f2928.jpg",
+    "static/media/pepe6.jpg": "/wyland/static/media/pepe6.b925b0cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4080bae7.js",
+    "static/js/2.40c98396.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.8607a219.chunk.js"
+  ]
+}
