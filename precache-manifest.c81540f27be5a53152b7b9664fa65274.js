@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7586308bf522e32d2a6375d08426919",
+    "revision": "5eb8c8aa02353ad1c2dfc9e08a73446a",
     "url": "/wyland/index.html"
   },
   {
-    "revision": "754e562078c7f8021ca9",
+    "revision": "f236cbce7823561bcd60",
     "url": "/wyland/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wyland/static/js/2.40c98396.chunk.js"
   },
   {
-    "revision": "754e562078c7f8021ca9",
-    "url": "/wyland/static/js/main.8607a219.chunk.js"
+    "revision": "f236cbce7823561bcd60",
+    "url": "/wyland/static/js/main.92b091f2.chunk.js"
   },
   {
     "revision": "7c72348bd78a3f9bf19a",
@@ -32,15 +32,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wyland/static/media/pepe3.74405703.jpg"
   },
   {
-    "revision": "d4833e9379b3e6f32bd1e595bbbfae34",
-    "url": "/wyland/static/media/pepe4.d4833e93.jpg"
+    "revision": "dbdf09144492823a89a44306e511e993",
+    "url": "/wyland/static/media/pepe4.dbdf0914.jpg"
   },
   {
     "revision": "4c6f2928d06ddad2a51c57a95a28eb61",
     "url": "/wyland/static/media/pepe5.4c6f2928.jpg"
   },
   {
-    "revision": "b925b0cfec8755d9d21406b99e786532",
-    "url": "/wyland/static/media/pepe6.b925b0cf.jpg"
+    "revision": "67249e0daf99c67c14063c546fadaf57",
+    "url": "/wyland/static/media/pepe6.67249e0d.jpg"
   }
 ]);
