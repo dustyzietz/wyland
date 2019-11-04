@@ -17,12 +17,8 @@ const useStyles = makeStyles({
 
 export default function Footer() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
   const {changeTab, currentTab} = useContext(StateContext)
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
 
   return (
     <Paper className={classes.root} >

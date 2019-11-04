@@ -1,6 +1,8 @@
 import React from "react";
-import wylandLogo from "./images/wylandLogo.png";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
+import Typography from '@material-ui/core/Typography';
+
+
 
 export default function Carousel() {
   const images = [
@@ -14,7 +16,7 @@ export default function Carousel() {
       banner: "second Image",
       footer: "come get art",
       src:
-        "https://www.wyland.com/wp-content/uploads/2019/02/disney-featured.jpg"
+        "https://i2.wp.com/biz360tours.com/wp-content/uploads/2014/04/wyland-galleries-port-canaveral-5.jpg?w=800&ssl=1"
     },
     {
       banner: "third Image",
@@ -36,7 +38,7 @@ return () => clearInterval(interval)
 
 
   return (
-    <div style={{height: '400px',position: 'relative'}}>
+    <div style={{height: '350px',position: 'relative'}}>
     <Gallery
       index={index}
       onRequestChange={i => {
@@ -44,11 +46,11 @@ return () => clearInterval(interval)
       }}
     >
       {images.map(image => (
-        <GalleryImage src={image.src} />
+        <GalleryImage src={image.src} key={image.banner} />
       ))}
     </Gallery>
-    <div style={{position: 'absolute', top: 0 ,width: '100%', textAlign: 'center'}}>
-      {images[index].banner}
+    <div style={{position: 'absolute', top: 0 ,width: '100%', textAlign: 'center', backgroundColor: 'rgba(365, 365, 365, 0.3)'}}>
+     <Typography variant='h5' style={{color: 'rgba(0, 0, 0, 0.7)'}}> {images[index].banner}</Typography>
     </div>
     </div>
   );

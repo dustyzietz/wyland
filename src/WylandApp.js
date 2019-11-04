@@ -1,4 +1,4 @@
-import React,{useContext, useEffect} from 'react';
+import React,{useContext} from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Gallery from './Gallery';
@@ -9,11 +9,8 @@ import Originals from './Originals';
 
 
 function WylandApp() {
-  const {currentTab, paintings} = useContext(StateContext);
+  const {currentTab} = useContext(StateContext);
 
-  useEffect (() => {
-    window.localStorage.setItem('paintings',JSON.stringify(paintings)) ;
- },[paintings]);
 
   return (
     <div >
@@ -21,6 +18,8 @@ function WylandApp() {
      {currentTab === 0 ? <Gallery/> :
       currentTab === 1 ? <Artists/> :
       <Originals/>}
+     
+     <div style={{height: '45px'}}></div>
    
      <Footer/>
     </div>

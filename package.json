@@ -1,13 +1,16 @@
 {
-  "homepage": "http://dustyzietz.github.io/wyland",
+  "homepage": "https://dustyzietz.github.io/wyland/",
   "name": "wyland",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prismic-javascript": "^2.1.1",
+    "prismic-reactjs": "^1.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-gesture-gallery": "^1.1.0",
     "react-gesture-responder": "^2.1.0",
+    "react-grid-gallery": "^0.5.5",
     "react-scripts": "3.2.0",
     "uuid": "^3.3.3"
   },
@@ -17,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

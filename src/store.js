@@ -16,31 +16,31 @@ export const initialArt = [
 {
   id: 2,
   artist : 'Pepe',
-  title : 'Coconut Girl',
+  title : 'Misto Right',
   image : pepe2
 },
 {
   id: 3,
   artist : 'Pepe',
-  title : 'Coconut Girl',
+  title : 'Dream Wave',
   image : pepe3
 },
 {
   id: 4,
   artist : 'Pepe',
-  title : 'Coconut Girl',
+  title : 'Napali Style',
   image : pepe4
 },
 {
   id: 5,
   artist : 'Pepe',
-  title : 'Coconut Girl',
+  title : 'Exscursion',
   image : pepe5
 },
 {
   id: 6,
   artist : 'Pepe',
-  title : 'Coconut Girl',
+  title : 'Jagged Clifs',
   image : pepe6
 },
 ]
