@@ -1,6 +1,8 @@
 import React from "react";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 import Typography from '@material-ui/core/Typography';
+import Prismic from "prismic-javascript";
+
 
 
 
@@ -25,11 +27,29 @@ export default function Carousel() {
         "https://www.wyland.com/wp-content/uploads/2019/02/canaveral-featured.jpg"
     }
   ];
-  const [index, setIndex] = React.useState(0);
+
+  const [doc, setDocData] = React.useState(null);
+
 
   React.useEffect(() => {
+    const fetchData = async () => {
+      const apiEndpoint = "https://gallery-website.cdn.prismic.io/api/v2";
+      const Client = Prismic.client(apiEndpoint);
+      const response = await Client.query(
+        Prismic.Predicates.at("document.type", "carouselimage")
+      );
+      if (response) {
+        setDocData(response.results);
+      }
+    };
+    fetchData();
+  }, []);
+
+  const [index, setIndex] = React.useState(0);
+
+   React.useEffect(() => {
 const interval = setInterval(() => {
-  if (index === images.length - 1){
+  if (index === 3 ){
     setIndex(0)
   }else{setIndex(index + 1) }
   },5000)
@@ -39,18 +59,19 @@ return () => clearInterval(interval)
 
   return (
     <div style={{height: '350px',position: 'relative'}}>
-    <Gallery
+      {doc && <Gallery
       index={index}
       onRequestChange={i => {
         setIndex(i);
       }}
-    >
-      {images.map(image => (
-        <GalleryImage src={image.src} key={image.banner} />
+    > 
+     { doc.map(pic => (
+         <GalleryImage src={pic.data.image.url} key={pic.data.banner[0].text} />
       ))}
-    </Gallery>
+      </Gallery> }
     <div style={{position: 'absolute', top: 0 ,width: '100%', textAlign: 'center', backgroundColor: 'rgba(365, 365, 365, 0.3)'}}>
-     <Typography variant='h5' style={{color: 'rgba(0, 0, 0, 0.7)'}}> {images[index].banner}</Typography>
+     {doc && <Typography variant='h5' style={{color: 'rgba(0, 0, 0, 0.7)'}}>{doc[index].data.banner[0].text}
+     </Typography> }
     </div>
     </div>
   );

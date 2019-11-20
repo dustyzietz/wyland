@@ -1,9 +1,12 @@
- import React from 'react';
+ import React,{useContext} from 'react';
   import { makeStyles } from '@material-ui/core/styles';
   import AppBar from '@material-ui/core/AppBar';
   import Toolbar from '@material-ui/core/Toolbar';
   import Typography from '@material-ui/core/Typography';
   import WylandLogo from './images/footer-logo.png';
+  import {StateContext} from './context/context.state';
+ 
+
 
 
 
@@ -24,10 +27,12 @@
   
   export default function Header() {
     const classes = useStyles();
+    const {currentTab} = useContext(StateContext);
    
   
     return (
       <div className={classes.root}>
+        {console.log(currentTab)}
         <AppBar position="static">
           <Toolbar>
            <div  >
@@ -37,7 +42,7 @@
               Wyland Gallery Kauai
             </Typography>
            
-          
+           
           </Toolbar>
         </AppBar>
       </div>
