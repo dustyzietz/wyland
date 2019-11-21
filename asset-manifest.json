@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wyland/static/css/main.34de6062.chunk.css",
-    "main.js": "/wyland/static/js/main.086f87a3.chunk.js",
-    "main.js.map": "/wyland/static/js/main.086f87a3.chunk.js.map",
+    "main.js": "/wyland/static/js/main.38fc628d.chunk.js",
+    "main.js.map": "/wyland/static/js/main.38fc628d.chunk.js.map",
     "runtime-main.js": "/wyland/static/js/runtime-main.4080bae7.js",
     "runtime-main.js.map": "/wyland/static/js/runtime-main.4080bae7.js.map",
-    "static/js/2.b3c7dc81.chunk.js": "/wyland/static/js/2.b3c7dc81.chunk.js",
-    "static/js/2.b3c7dc81.chunk.js.map": "/wyland/static/js/2.b3c7dc81.chunk.js.map",
+    "static/js/2.105cfbfb.chunk.js": "/wyland/static/js/2.105cfbfb.chunk.js",
+    "static/js/2.105cfbfb.chunk.js.map": "/wyland/static/js/2.105cfbfb.chunk.js.map",
     "index.html": "/wyland/index.html",
-    "precache-manifest.3b1d29d4f93be90ee63b2406f4655e42.js": "/wyland/precache-manifest.3b1d29d4f93be90ee63b2406f4655e42.js",
+    "precache-manifest.f19f0b7f4fe44d78b4c1ef1ec17d7a86.js": "/wyland/precache-manifest.f19f0b7f4fe44d78b4c1ef1ec17d7a86.js",
     "service-worker.js": "/wyland/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/wyland/static/css/main.34de6062.chunk.css.map",
     "static/media/Pepe1.jpg": "/wyland/static/media/Pepe1.d1b723e2.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4080bae7.js",
-    "static/js/2.b3c7dc81.chunk.js",
+    "static/js/2.105cfbfb.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.086f87a3.chunk.js"
+    "static/js/main.38fc628d.chunk.js"
   ]
 }
