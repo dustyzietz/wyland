@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wyland/static/css/main.34de6062.chunk.css",
-    "main.js": "/wyland/static/js/main.da678ce7.chunk.js",
-    "main.js.map": "/wyland/static/js/main.da678ce7.chunk.js.map",
+    "main.js": "/wyland/static/js/main.1d9080cf.chunk.js",
+    "main.js.map": "/wyland/static/js/main.1d9080cf.chunk.js.map",
     "runtime-main.js": "/wyland/static/js/runtime-main.4080bae7.js",
     "runtime-main.js.map": "/wyland/static/js/runtime-main.4080bae7.js.map",
     "static/js/2.2e148e18.chunk.js": "/wyland/static/js/2.2e148e18.chunk.js",
     "static/js/2.2e148e18.chunk.js.map": "/wyland/static/js/2.2e148e18.chunk.js.map",
     "index.html": "/wyland/index.html",
-    "precache-manifest.5211924b52de9aecf5ff5708d8451f20.js": "/wyland/precache-manifest.5211924b52de9aecf5ff5708d8451f20.js",
+    "precache-manifest.b7481c35a30b7449e20df56179b54371.js": "/wyland/precache-manifest.b7481c35a30b7449e20df56179b54371.js",
     "service-worker.js": "/wyland/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/wyland/static/css/main.34de6062.chunk.css.map",
     "static/media/Pepe1.jpg": "/wyland/static/media/Pepe1.d1b723e2.jpg",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.4080bae7.js",
     "static/js/2.2e148e18.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.da678ce7.chunk.js"
+    "static/js/main.1d9080cf.chunk.js"
   ]
 }
