@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "284915041be0d31848622898208c72bc",
+    "revision": "e7dfc3aaf89be90e10213e00f1e34f36",
     "url": "/wyland/index.html"
   },
   {
-    "revision": "3909f12ba1537b5c4824",
+    "revision": "8156ffa8740e34534eb8",
     "url": "/wyland/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "139e93d95cac1239100d",
-    "url": "/wyland/static/js/2.5f625407.chunk.js"
+    "revision": "cb4f01b616865470fa23",
+    "url": "/wyland/static/js/2.a6880b66.chunk.js"
   },
   {
-    "revision": "3909f12ba1537b5c4824",
-    "url": "/wyland/static/js/main.949b7cf1.chunk.js"
+    "revision": "8156ffa8740e34534eb8",
+    "url": "/wyland/static/js/main.deea0641.chunk.js"
   },
   {
     "revision": "7c72348bd78a3f9bf19a",
